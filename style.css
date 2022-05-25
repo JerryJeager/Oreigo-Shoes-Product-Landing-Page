@@ -4,6 +4,19 @@
   margin: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  background: #eee;
+
+}
+header{
+position: fixed;
+width: 100%;
+top:0;
+left: 0;
+ background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+z-index: 1;
+
 }
 html,
 body {
@@ -23,6 +36,7 @@ body {
   right: 18px;
   top: 10px;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .head {
@@ -33,10 +47,10 @@ body {
   color: rgb(161, 42, 172);
   font-family: "Inconsolata", monospace;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   /* width: 129px; */
   position: relative;
-  right: 60px;
+  right: 55px;
   top: 70px;
 }
 
@@ -53,7 +67,8 @@ body {
 
 .about {
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
+  color: royalblue;
 }
 .fa-check {
   color: white;
@@ -116,8 +131,9 @@ body {
 }
 .shoesimg {
   width: 100%;
-  height: 2000px;
-  background: #ccc;
+  height: auto;
+  background:rgb(16, 19, 20);
+  color: #EEE;
 }
 .shoeset1 {
   width: 100%;
@@ -226,4 +242,19 @@ body {
   max-width: 100%;
   height: 170px;
   border-radius: 10px;
+}
+#email{
+  height: 30px;
+  width: 220px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+}
+#submit{
+  background:rgb(180, 10, 123);
+  width: 180px;
+  font-weight: bold;
+}
+.form{
+ text-align: center;
 }
