@@ -145,12 +145,6 @@ html, body{
   font-weight: bold;
   font-size: 22px;
 }
-.shoeset2{
-  width: 100%;
-  height: auto;
-  background: black;
-  margin: 0 auto;
-}
 .shoe3{
   width: 49%;
   max-width: 100%;
@@ -175,5 +169,48 @@ html, body{
   max-width: 100%;
   height: 170px;
   float: right;
+  border-radius: 10px;
+}
+#shoeset2{
+  width: 100%;
+  height: auto;
+  background: black;
+  margin: 0 auto;
+}
+.shoe7{
+  width: 49%;
+  max-width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+.shoe8{
+  width: 49%;
+  max-width: 100%;
+  height: 170px;
+  float: right;
+  border-radius: 10px;
+}
+.shoe9{
+  width: 49%;
+  max-width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+.shoe10{
+  width: 49%;
+  max-width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+.shoe11{
+  width: 49%;
+  max-width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+.shoe12{
+  width: 49%;
+  max-width: 100%;
+  height: 170px;
   border-radius: 10px;
 }
