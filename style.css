@@ -62,7 +62,7 @@ body {
   font-size: 11px;
   font-family: 'Prompt', sans-serif;
   display: inline;
-  word-spacing: 20px;
+  word-spacing: 7px;
   position: relative;
   right: 15px;
   top: 35px;
@@ -78,7 +78,8 @@ body {
   text-align: center;
   font-size: 26px;
   color: royalblue;
-  font-family: 'Abril Fatface', cursive;
+ font-family: 'Fredoka One', cursive;
+ font-weight: bold;
 }
 .fa-check {
   color: white;
@@ -243,6 +244,8 @@ p{
   max-width: 100%;
   height: 170px;
   border-radius: 10px;
+  position: relative;
+  left: 2px;
 }
 .shoe11 {
   width: 49%;
@@ -255,6 +258,8 @@ p{
   max-width: 100%;
   height: 170px;
   border-radius: 10px;
+  position: relative;
+  left: 2px;
 }
 #email {
   height: 30px;
@@ -292,4 +297,161 @@ footer {
   float: right;
   position: relative;
   right: 10px;
+}
+@media screen and (min-width: 768px){
+#header-img {
+  transform: scale(0.6);
+  position: relative;
+  right: 220px;
+}
+#companyname {
+  font-size: 32px;
+  position: relative;
+  right: 245px;
+}
+.nav-link {
+  font-size: 17px;
+  word-spacing: 30px;
+  position: relative;
+  right: 35px;
+}
+#Oreigo {
+  width: 540px;
+  margin: 0 auto;
+  height: auto;
+}
+.shoe1 {
+  height: 270px;
+}
+.shoe2 {
+  height: 270px;
+}
+.shoe3 {
+  height: 270px;
+}
+.shoe4 {
+   height: 270px;
+}
+.shoe5 {
+  height: 270px;
+}
+.shoe6 {
+  height: 270px;
+}
+
+.shoe7 {
+   height: 270px;
+}
+.shoe8 {
+  height: 270px;
+}
+.shoe9 {
+  height: 270px;
+}
+.shoe10 {
+   height: 270px;
+    position: relative;
+  left: 10px;
+}
+.shoe11 {
+   height: 270px;
+}
+.shoe12 {
+  height: 270px;
+   position: relative;
+  left: 10px;
+}
+p{
+  font-size: 20px;
+}
+.shoes{
+font-size: 23px;
+}
+.quality{
+font-size: 23px;
+}
+.delivery{
+font-size: 23px;
+}
+.warranty{
+font-size: 23px;
+}
+#email {
+  height: 40px;
+  width: 270px;
+  font-size: 21px;
+}
+#submit {
+  width: 180px;
+  height: 30px;
+  font-size: 18px;
+}
+.footerlinks {
+  font-size: 18px;
+  position: relative;
+  bottom: 10px;
+}
+.copyright {
+  position: relative;
+  left: 200px;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+#header-img {
+  transform: scale(0.6);
+  position: relative;
+  right: 420px;
+}
+#companyname {
+  font-size: 32px;
+  position: relative;
+  right: 445px;
+}
+
+#Oreigo {
+  width: 640px;
+}
+.shoe1 {
+  height: 370px;
+}
+.shoe2 {
+  height: 370px;
+}
+.shoe3 {
+  height: 370px;
+}
+.shoe4 {
+   height: 370px;
+}
+.shoe5 {
+  height: 370px;
+}
+.shoe6 {
+  height: 370px;
+}
+
+.shoe7 {
+   height: 370px;
+}
+.shoe8 {
+  height: 370px;
+}
+.shoe9 {
+  height: 370px;
+}
+.shoe10 {
+  height: 370px;
+    position: relative;
+  left: 20px;
+}
+.shoe11 {
+  height: 370px;
+}
+.shoe12 {
+ height: 370px;
+   position: relative;
+  left: 20px;
+}
 }
